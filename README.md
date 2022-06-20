@@ -34,7 +34,7 @@ Please read carefully through the entire process below before starting.
    - Password: `testapi`
 ---
 
-### My approach for the Process Step for the APi.
+### My approach for the Process Step for the APi
 
 Initially I was planning to use the Django cache table to store exchange rates 
 and then refer to the cache table first before performing another API call.
@@ -53,7 +53,9 @@ With this approach the initial data will take a tad longer to run in order to
 populate the stored exchange rates, however, as more and more records are 
 processed, the need for the API will diminish and eventually the API will be 
 used in very few circumstances.
+
 ---
+
 ### Building a scalable solution for large data sets.
 I have never had the opportunity to work with data of scale. However, my approach 
 would be in line with the following:
