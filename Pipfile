@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-extensions = "*"
+django-widget-tweaks = "*"
+django-storages = "*"
+django-countries = "*"
+django-filter = "*"
+djangorestframework = "*"
+requests = "*"
+mysqlclient = "*"
+unidecode = "*"
+unicodecsv = "*"
+python-dateutil = "*"
+
+[dev-packages]
+
+[requires]

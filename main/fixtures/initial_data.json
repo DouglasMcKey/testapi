@@ -1,0 +1,36 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$8yRFvzgBjwYOshE2DCVA3T$+hK2F2m4vYFyKm4oVP8we2BjQY0+jYS3eA9fYJhN9+c=",
+            "last_login": "2022-01-01T00:00:00Z",
+            "is_superuser": true,
+            "username": "admin@testapi.com",
+            "first_name": "System",
+            "last_name": "Administrator",
+            "email": "admin@testapi.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-01-01T00:00:00Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "transactions.transactiontype",
+        "pk": 1,
+        "fields": {
+            "name": "Purchase",
+            "notes": ""
+        }
+    },
+    {
+        "model": "transactions.transactiontype",
+        "pk": 2,
+        "fields": {
+            "name": "Sale",
+            "notes": ""
+        }
+    }
+]
