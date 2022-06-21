@@ -70,6 +70,7 @@ class TransactionFileUpload(models.Model):
     class Meta:
         verbose_name = "Transaction File Upload"
         verbose_name_plural = "Transaction File Uploads"
+        ordering = ["name"]
 
     def __str__(self):
         return f"{self.transaction_file}"
